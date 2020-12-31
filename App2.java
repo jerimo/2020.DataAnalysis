@@ -6,7 +6,7 @@ import java.util.HashSet;
 import java.util.Iterator;
 
 public class App2 {
-
+// hashSet을 이용한 예제
 	public static void main(String[] args) {
 		MyHashSet<Integer> odd = new MyHashSet<Integer>(70003);
 		
