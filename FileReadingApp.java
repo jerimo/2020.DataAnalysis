@@ -8,7 +8,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 public class FileReadingApp {
-
+	
 	public static void main(String[] args) throws IOException {
 
 		FileReader reader = new FileReader("C:\\Users\\김수지\\Desktop\\data.txt");
