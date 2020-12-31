@@ -9,7 +9,7 @@ import java.util.Set;
 public class MyHashSet<E> implements Set<E> {
 
 	private MyBucket<E>[] buckets;
-	private Integer size; //
+	private Integer size;
 
 	@SuppressWarnings("unchecked")
 	public MyHashSet(int bucketSize) { // 생성자
@@ -59,8 +59,7 @@ public class MyHashSet<E> implements Set<E> {
 	}
 
 // 이터레이터 다시 구현할 필요가 있음 해시 값에 대한 리스트 순회를 해야함
-	// 이터레이터 키를 순회??
-	// ㄴㄴ toList로 set을 리스트로 만들고 그 리스트를 순회
+// toList로 set을 리스트로 만들고 그 리스트를 순회
 	@Override
 	public Iterator<E> iterator() {
 		return new Itr(); // MyArrayList에서 작성한 부분 수정 사용
