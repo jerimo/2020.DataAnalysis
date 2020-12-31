@@ -9,13 +9,9 @@ import java.util.NavigableSet;
 import java.util.TreeSet;
 
 public class App3 {
-
+// MyTreeSet 구현을 확인하기 위한 app
 	public static void main(String[] args) throws IOException {
-	BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\김수지\\Desktop\\data.txt"));
-		
-		// left, right ID瑜� TreeSet�� 紐⑤몢 �곸옱�섍린
-		//NavigableSet<Integer> data = new TreeSet<Integer>();
-		// MyTreeSet�� �꾩꽦�섏뿬 TreeSet怨� 媛숈� 寃곌낵媛믪씠 �섏삤�꾨줉 �섏떆��.
+		BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\김수지\\Desktop\\data.txt"));
 		NavigableSet<Integer> data = new MyTreeSet<Integer>();
 		
 	
