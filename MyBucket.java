@@ -26,6 +26,5 @@ public class MyBucket<E> {
 		super();
 		this.hash = hash;
 		this.bucketList = bucketList;
-	}
-	
+	}	
 }
