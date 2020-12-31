@@ -7,6 +7,7 @@ import java.util.TreeSet;
 
 public class MyNode<E> {
 	// parent는 사용하지 않아서 삭제하고 높이 height를 추가함
+	
 	private E data;
 	private MyNode<E> left;
 	private MyNode<E> right;
